@@ -1,8 +1,13 @@
-update=Sun 02 Oct 2011 05:03:48 AM CEST
+update=Sun 02 Oct 2011 09:57:37 AM CEST
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -69,11 +74,6 @@ LibName31=/home/robert/Arduino/KiCAD/LIBS/my_parts
 LibName32=attiny24_44_84
 LibName33=/home/robert/Arduino/KiCAD/dips-s
 LibName34=ref-packages
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=300

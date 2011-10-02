@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Oct 2011 04:37:45 AM CEST
+EESchema Schematic File Version 2  date Sun 02 Oct 2011 10:56:49 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,19 +41,34 @@ encoding utf-8
 Sheet 1 1
 Title "Obenpench logic sniffer pull-U/D wing"
 Date "2 oct 2011"
-Rev "0.1"
+Rev "0.2"
 Comp "My 2µF blog"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 5450 3575 0    60   ~ 0
+5.0V
+Text Label 6200 3200 2    60   ~ 0
+OLS_14
+Text Label 6200 3100 2    60   ~ 0
+OLS_15
+Text Label 6200 3000 2    60   ~ 0
+OLS_16
+$Comp
+L DIPS_08 SW1
+U 1 1 4E879D6A
+P 6500 3350
+F 0 "SW1" V 6050 3350 60  0000 C CNN
+F 1 "DIPS_08" V 6950 3350 60  0000 C CNN
+	1    6500 3350
+	0    1    1    0   
+$EndComp
 Text Label 5450 3775 0    60   ~ 0
 2.5V
 Text Label 5450 3675 0    60   ~ 0
 3.3V
-Text Label 5450 3575 0    60   ~ 0
-5.0V
 Wire Wire Line
 	5375 3775 5450 3775
 Wire Wire Line
@@ -379,15 +394,6 @@ F 1 "DIPS_08" V 6950 4900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DIPS_08 SW1
-U 1 1 4E879D6A
-P 6500 3350
-F 0 "SW1" V 6050 3350 60  0000 C CNN
-F 1 "DIPS_08" V 6950 3350 60  0000 C CNN
-	1    6500 3350
-	0    1    1    0   
-$EndComp
-$Comp
 L RR8 RR1
 U 1 1 4E878E87
 P 7150 3350
@@ -575,102 +581,38 @@ Text Label 3525 4800 0    60   ~ 0
 OLS_02
 Text Label 3525 4900 0    60   ~ 0
 OLS_01
-Text Label 7850 3000 2    60   ~ 0
-OLS_16
-Text Label 7850 3100 2    60   ~ 0
-OLS_15
-Text Label 7850 3200 2    60   ~ 0
-OLS_14
-Text Label 7850 3300 2    60   ~ 0
-OLS_13
-Text Label 7850 3400 2    60   ~ 0
-OLS_12
-Text Label 7850 3500 2    60   ~ 0
-OLS_11
-Text Label 7850 3600 2    60   ~ 0
-OLS_10
-Text Label 7850 3700 2    60   ~ 0
-OLS_09
 Text Label 7850 5250 2    60   ~ 0
-OLS_01
-Text Label 7850 5150 2    60   ~ 0
-OLS_02
-Text Label 7850 5050 2    60   ~ 0
-OLS_03
-Text Label 7850 4950 2    60   ~ 0
-OLS_04
-Text Label 7850 4850 2    60   ~ 0
-OLS_05
-Text Label 7850 4750 2    60   ~ 0
-OLS_06
-Text Label 7850 4650 2    60   ~ 0
-OLS_07
-Text Label 7850 4550 2    60   ~ 0
 OLS_08
-Text Label 7850 4550 2    60   ~ 0
-OLS_08
-Text Label 7850 4650 2    60   ~ 0
-OLS_07
-Text Label 7850 4750 2    60   ~ 0
-OLS_06
-Text Label 7850 4850 2    60   ~ 0
-OLS_05
-Text Label 7850 4950 2    60   ~ 0
-OLS_04
-Text Label 7850 5050 2    60   ~ 0
-OLS_03
 Text Label 7850 5150 2    60   ~ 0
+OLS_07
+Text Label 7850 5050 2    60   ~ 0
+OLS_06
+Text Label 7850 4950 2    60   ~ 0
+OLS_05
+Text Label 7850 4850 2    60   ~ 0
+OLS_04
+Text Label 7850 4750 2    60   ~ 0
+OLS_03
+Text Label 7850 4650 2    60   ~ 0
 OLS_02
-Text Label 7850 5250 2    60   ~ 0
+Text Label 7850 4550 2    60   ~ 0
 OLS_01
-Text Label 7850 3700 2    60   ~ 0
-OLS_09
-Text Label 7850 3600 2    60   ~ 0
-OLS_10
-Text Label 7850 3500 2    60   ~ 0
-OLS_11
-Text Label 7850 3400 2    60   ~ 0
-OLS_12
-Text Label 7850 3300 2    60   ~ 0
-OLS_13
-Text Label 7850 3200 2    60   ~ 0
-OLS_14
-Text Label 7850 3100 2    60   ~ 0
-OLS_15
 Text Label 7850 3000 2    60   ~ 0
-OLS_16
-Text Label 6200 3000 2    60   ~ 0
-OLS_16
-Text Label 6200 3100 2    60   ~ 0
-OLS_15
-Text Label 6200 3200 2    60   ~ 0
-OLS_14
-Text Label 6200 3300 2    60   ~ 0
-OLS_13
-Text Label 6200 3400 2    60   ~ 0
-OLS_12
-Text Label 6200 3500 2    60   ~ 0
-OLS_11
-Text Label 6200 3600 2    60   ~ 0
-OLS_10
-Text Label 6200 3700 2    60   ~ 0
 OLS_09
-Text Label 6200 5250 2    60   ~ 0
-OLS_01
-Text Label 6200 5150 2    60   ~ 0
-OLS_02
-Text Label 6200 5050 2    60   ~ 0
-OLS_03
-Text Label 6200 4950 2    60   ~ 0
-OLS_04
-Text Label 6200 4850 2    60   ~ 0
-OLS_05
-Text Label 6200 4750 2    60   ~ 0
-OLS_06
-Text Label 6200 4650 2    60   ~ 0
-OLS_07
-Text Label 6200 4550 2    60   ~ 0
-OLS_08
+Text Label 7850 3100 2    60   ~ 0
+OLS_10
+Text Label 7850 3200 2    60   ~ 0
+OLS_11
+Text Label 7850 3300 2    60   ~ 0
+OLS_12
+Text Label 7850 3400 2    60   ~ 0
+OLS_13
+Text Label 7850 3500 2    60   ~ 0
+OLS_14
+Text Label 7850 3600 2    60   ~ 0
+OLS_15
+Text Label 7850 3700 2    60   ~ 0
+OLS_16
 Text Label 6200 4550 2    60   ~ 0
 OLS_08
 Text Label 6200 4650 2    60   ~ 0
@@ -697,12 +639,6 @@ Text Label 6200 3400 2    60   ~ 0
 OLS_12
 Text Label 6200 3300 2    60   ~ 0
 OLS_13
-Text Label 6200 3200 2    60   ~ 0
-OLS_14
-Text Label 6200 3100 2    60   ~ 0
-OLS_15
-Text Label 6200 3000 2    60   ~ 0
-OLS_16
 $Comp
 L GND #PWR08
 U 1 1 4E8790E4
