@@ -1,0 +1,437 @@
+# EESchema Netlist Version 1.1 created  Sun 02 Oct 2011 04:37:49 AM CEST
+(
+ ( /4E87B172 $noname  R3 1k {Lib=R}
+  (    1 /2.5V )
+  (    2 N-000012 )
+ )
+ ( /4E87B170 $noname  R2 1k {Lib=R}
+  (    1 /3.3V )
+  (    2 N-000011 )
+ )
+ ( /4E87B14C $noname  R1 1k {Lib=R}
+  (    1 /5.0V )
+  (    2 N-000017 )
+ )
+ ( /4E879D99 $noname  SW4 DIPS_08 {Lib=DIPS_08}
+  (    1 /OLS_08 )
+  (    2 /OLS_07 )
+  (    3 /OLS_06 )
+  (    4 /OLS_05 )
+  (    5 /OLS_04 )
+  (    6 /OLS_03 )
+  (    7 /OLS_02 )
+  (    8 /OLS_01 )
+  (    9 N-000035 )
+  (   10 N-000057 )
+  (   11 N-000036 )
+  (   12 N-000048 )
+  (   13 N-000037 )
+  (   14 N-000047 )
+  (   15 N-000038 )
+  (   16 N-000046 )
+ )
+ ( /4E879D94 $noname  SW3 DIPS_08 {Lib=DIPS_08}
+  (    1 /OLS_16 )
+  (    2 /OLS_15 )
+  (    3 /OLS_14 )
+  (    4 /OLS_13 )
+  (    5 /OLS_12 )
+  (    6 /OLS_11 )
+  (    7 /OLS_10 )
+  (    8 /OLS_09 )
+  (    9 N-000045 )
+  (   10 N-000031 )
+  (   11 N-000044 )
+  (   12 N-000032 )
+  (   13 N-000043 )
+  (   14 N-000033 )
+  (   15 N-000042 )
+  (   16 N-000034 )
+ )
+ ( /4E879D8C $noname  SW2 DIPS_08 {Lib=DIPS_08}
+  (    1 /OLS_08 )
+  (    2 /OLS_07 )
+  (    3 /OLS_06 )
+  (    4 /OLS_05 )
+  (    5 /OLS_04 )
+  (    6 /OLS_03 )
+  (    7 /OLS_02 )
+  (    8 /OLS_01 )
+  (    9 N-000055 )
+  (   10 N-000054 )
+  (   11 N-000014 )
+  (   12 N-000053 )
+  (   13 N-000015 )
+  (   14 N-000052 )
+  (   15 N-000016 )
+  (   16 N-000051 )
+ )
+ ( /4E879D6A $noname  SW1 DIPS_08 {Lib=DIPS_08}
+  (    1 /OLS_16 )
+  (    2 /OLS_15 )
+  (    3 /OLS_14 )
+  (    4 /OLS_13 )
+  (    5 /OLS_12 )
+  (    6 /OLS_11 )
+  (    7 /OLS_10 )
+  (    8 /OLS_09 )
+  (    9 N-000050 )
+  (   10 N-000018 )
+  (   11 N-000049 )
+  (   12 N-000019 )
+  (   13 N-000041 )
+  (   14 N-000022 )
+  (   15 N-000021 )
+  (   16 N-000020 )
+ )
+ ( /4E878E87 $noname  RR1 10k {Lib=RR8}
+  (    1 N-000010 )
+  (    2 N-000020 )
+  (    3 N-000021 )
+  (    4 N-000022 )
+  (    5 N-000041 )
+  (    6 N-000019 )
+  (    7 N-000049 )
+  (    8 N-000018 )
+  (    9 N-000050 )
+ )
+ ( /4E878FC9 $noname  RR2 10k {Lib=RR8}
+  (    1 N-000056 )
+  (    2 N-000051 )
+  (    3 N-000016 )
+  (    4 N-000052 )
+  (    5 N-000015 )
+  (    6 N-000053 )
+  (    7 N-000014 )
+  (    8 N-000054 )
+  (    9 N-000055 )
+ )
+ ( /4E879757 $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000012 )
+  (    3 N-000011 )
+  (    4 N-000017 )
+ )
+ ( /4E879520 $noname  P4 CONN_9 {Lib=CONN_9}
+  (    1 GND )
+  (    2 /OLS_01 )
+  (    3 /OLS_02 )
+  (    4 /OLS_03 )
+  (    5 /OLS_04 )
+  (    6 /OLS_05 )
+  (    7 /OLS_06 )
+  (    8 /OLS_07 )
+  (    9 /OLS_08 )
+ )
+ ( /4E87951B $noname  P3 CONN_9 {Lib=CONN_9}
+  (    1 GND )
+  (    2 /OLS_16 )
+  (    3 /OLS_15 )
+  (    4 /OLS_14 )
+  (    5 /OLS_13 )
+  (    6 /OLS_12 )
+  (    7 /OLS_11 )
+  (    8 /OLS_10 )
+  (    9 /OLS_09 )
+ )
+ ( /4E879516 $noname  P2 CONN_9 {Lib=CONN_9}
+  (    1 GND )
+  (    2 /OLS_01 )
+  (    3 /OLS_02 )
+  (    4 /OLS_03 )
+  (    5 /OLS_04 )
+  (    6 /OLS_05 )
+  (    7 /OLS_06 )
+  (    8 /OLS_07 )
+  (    9 /OLS_08 )
+ )
+ ( /4E879510 $noname  P1 CONN_9 {Lib=CONN_9}
+  (    1 GND )
+  (    2 /OLS_16 )
+  (    3 /OLS_15 )
+  (    4 /OLS_14 )
+  (    5 /OLS_13 )
+  (    6 /OLS_12 )
+  (    7 /OLS_11 )
+  (    8 /OLS_10 )
+  (    9 /OLS_09 )
+ )
+ ( /4E8793E9 $noname  J2 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /2.5V )
+  (    2 N-000056 )
+  (    3 /3.3V )
+  (    4 N-000056 )
+  (    5 /5.0V )
+  (    6 N-000056 )
+ )
+ ( /4E879336 $noname  J1 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /2.5V )
+  (    2 N-000010 )
+  (    3 /3.3V )
+  (    4 N-000010 )
+  (    5 /5.0V )
+  (    6 N-000010 )
+ )
+ ( /4E8790C6 $noname  RR3 10k {Lib=RR8}
+  (    1 GND )
+  (    2 N-000034 )
+  (    3 N-000042 )
+  (    4 N-000033 )
+  (    5 N-000043 )
+  (    6 N-000032 )
+  (    7 N-000044 )
+  (    8 N-000031 )
+  (    9 N-000045 )
+ )
+ ( /4E8790C5 $noname  RR4 10k {Lib=RR8}
+  (    1 GND )
+  (    2 N-000046 )
+  (    3 N-000038 )
+  (    4 N-000047 )
+  (    5 N-000037 )
+  (    6 N-000048 )
+  (    7 N-000036 )
+  (    8 N-000057 )
+  (    9 N-000035 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/OLS_16" "OLS_16"
+ P3 2
+ SW3 1
+ P1 2
+ SW1 1
+Net 2 "/OLS_09" "OLS_09"
+ SW3 8
+ P3 9
+ SW1 8
+ P1 9
+Net 3 "/OLS_10" "OLS_10"
+ SW1 7
+ SW3 7
+ P1 8
+ P3 8
+Net 4 "/OLS_11" "OLS_11"
+ P3 7
+ SW3 6
+ SW1 6
+ P1 7
+Net 5 "/OLS_12" "OLS_12"
+ P3 6
+ SW3 5
+ SW1 5
+ P1 6
+Net 6 "/OLS_13" "OLS_13"
+ P1 5
+ P3 5
+ SW3 4
+ SW1 4
+Net 7 "/OLS_14" "OLS_14"
+ SW1 3
+ SW3 3
+ P1 4
+ P3 4
+Net 8 "/OLS_15" "OLS_15"
+ P3 3
+ SW3 2
+ P1 3
+ SW1 2
+Net 9 "/OLS_08" "OLS_08"
+ P4 9
+ SW4 1
+ SW2 1
+ P2 9
+Net 10 "" ""
+ RR1 1
+ J1 2
+ J1 6
+ J1 4
+Net 11 "" ""
+ R2 2
+ P9 3
+Net 12 "" ""
+ P9 2
+ R3 2
+Net 13 "GND" "GND"
+ P1 1
+ P9 1
+ P2 1
+ P3 1
+ RR3 1
+ RR4 1
+ P4 1
+Net 14 "" ""
+ SW2 11
+ RR2 7
+Net 15 "" ""
+ SW2 13
+ RR2 5
+Net 16 "" ""
+ SW2 15
+ RR2 3
+Net 17 "" ""
+ R1 2
+ P9 4
+Net 18 "" ""
+ SW1 10
+ RR1 8
+Net 19 "" ""
+ RR1 6
+ SW1 12
+Net 20 "" ""
+ RR1 2
+ SW1 16
+Net 21 "" ""
+ RR1 3
+ SW1 15
+Net 22 "" ""
+ SW1 14
+ RR1 4
+Net 23 "/OLS_07" "OLS_07"
+ P4 8
+ SW4 2
+ P2 8
+ SW2 2
+Net 24 "/OLS_06" "OLS_06"
+ P2 7
+ SW2 3
+ SW4 3
+ P4 7
+Net 25 "/OLS_05" "OLS_05"
+ SW2 4
+ P2 6
+ P4 6
+ SW4 4
+Net 26 "/OLS_04" "OLS_04"
+ SW2 5
+ SW4 5
+ P4 5
+ P2 5
+Net 27 "/OLS_03" "OLS_03"
+ P2 4
+ SW4 6
+ SW2 6
+ P4 4
+Net 28 "/2.5V" "2.5V"
+ J1 1
+ R3 1
+ J2 1
+Net 29 "/3.3V" "3.3V"
+ R2 1
+ J1 3
+ J2 3
+Net 30 "/5.0V" "5.0V"
+ R1 1
+ J1 5
+ J2 5
+Net 31 "" ""
+ RR3 8
+ SW3 10
+Net 32 "" ""
+ RR3 6
+ SW3 12
+Net 33 "" ""
+ SW3 14
+ RR3 4
+Net 34 "" ""
+ RR3 2
+ SW3 16
+Net 35 "" ""
+ SW4 9
+ RR4 9
+Net 36 "" ""
+ SW4 11
+ RR4 7
+Net 37 "" ""
+ SW4 13
+ RR4 5
+Net 38 "" ""
+ SW4 15
+ RR4 3
+Net 39 "/OLS_02" "OLS_02"
+ SW4 7
+ SW2 7
+ P4 3
+ P2 3
+Net 40 "/OLS_01" "OLS_01"
+ P2 2
+ SW2 8
+ SW4 8
+ P4 2
+Net 41 "" ""
+ SW1 13
+ RR1 5
+Net 42 "" ""
+ RR3 3
+ SW3 15
+Net 43 "" ""
+ SW3 13
+ RR3 5
+Net 44 "" ""
+ SW3 11
+ RR3 7
+Net 45 "" ""
+ RR3 9
+ SW3 9
+Net 46 "" ""
+ RR4 2
+ SW4 16
+Net 47 "" ""
+ SW4 14
+ RR4 4
+Net 48 "" ""
+ SW4 12
+ RR4 6
+Net 49 "" ""
+ SW1 11
+ RR1 7
+Net 50 "" ""
+ SW1 9
+ RR1 9
+Net 51 "" ""
+ SW2 16
+ RR2 2
+Net 52 "" ""
+ SW2 14
+ RR2 4
+Net 53 "" ""
+ RR2 6
+ SW2 12
+Net 54 "" ""
+ SW2 10
+ RR2 8
+Net 55 "" ""
+ SW2 9
+ RR2 9
+Net 56 "" ""
+ J2 6
+ J2 4
+ J2 2
+ RR2 1
+Net 57 "" ""
+ SW4 10
+ RR4 8
+}
+#End
