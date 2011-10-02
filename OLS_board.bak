@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Oct 2011 10:56:35 AM CEST
+EESchema Schematic File Version 2  date Sun 02 Oct 2011 10:56:49 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,7 +41,7 @@ encoding utf-8
 Sheet 1 1
 Title "Obenpench logic sniffer pull-U/D wing"
 Date "2 oct 2011"
-Rev "0.1"
+Rev "0.2"
 Comp "My 2µF blog"
 Comment1 ""
 Comment2 ""
