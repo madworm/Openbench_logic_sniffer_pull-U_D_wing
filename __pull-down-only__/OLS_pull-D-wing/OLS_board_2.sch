@@ -1,4 +1,6 @@
-EESchema Schematic File Version 2  date Thu 27 Oct 2011 05:49:48 PM CEST
+EESchema Schematic File Version 2  date Wed 23 Jan 2013 11:25:00 PM CET
+LIBS:my_parts
+LIBS:dips-s
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +31,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:my_parts
-LIBS:attiny24_44_84
-LIBS:dips-s
-LIBS:ref-packages
 LIBS:OLS_board_2-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Obenpench logic sniffer pull-D wing"
