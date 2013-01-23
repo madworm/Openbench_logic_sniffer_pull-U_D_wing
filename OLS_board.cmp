@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Sun 02 Oct 2011 01:10:55 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Wed 23 Jan 2013 01:48:26 PM CET
 
 BeginCmp
 TimeStamp = /4E879336;
@@ -18,35 +18,35 @@ BeginCmp
 TimeStamp = /4E879510;
 Reference = P1;
 ValeurCmp = CONN_9;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E879516;
 Reference = P2;
 ValeurCmp = CONN_9;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E87951B;
 Reference = P3;
 ValeurCmp = CONN_9;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E879520;
 Reference = P4;
 ValeurCmp = CONN_9;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E879757;
 Reference = P9;
 ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+IdModule  = MADW__SIL-4;
 EndCmp
 
 BeginCmp
@@ -74,28 +74,28 @@ BeginCmp
 TimeStamp = /4E878E87;
 Reference = RR1;
 ValeurCmp = 10k;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E878FC9;
 Reference = RR2;
 ValeurCmp = 10k;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E8790C6;
 Reference = RR3;
 ValeurCmp = 10k;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E8790C5;
 Reference = RR4;
 ValeurCmp = 10k;
-IdModule  = SIL-9;
+IdModule  = MADW__SIL-9;
 EndCmp
 
 BeginCmp
